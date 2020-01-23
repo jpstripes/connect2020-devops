@@ -74,8 +74,9 @@ function issuesEndpoint() {
 function description(obj) {
   var outs = [
     "Google Formsからスポンサーの申し込みがありました。",
-    "",
-    "## 申込内容"
+    "\n\n",
+    "## 申込内容",
+    "\n"
   ];
 
   // Simply concatenating all given inputs as body message.
